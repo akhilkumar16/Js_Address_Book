@@ -141,3 +141,18 @@ class AddressBook
         return "\nName:" + this.Name + " ,Address:" + this.address + " ,City:" + this.city + " ,State:" + this.state + " Zip:" + this.zip + " ,Phone:" + this.phone + ",Email:" + this.email;
     }
 }
+//UC3//
+
+let addressArr = new Array();
+try
+{
+    let address1 = new AddressBook("virat","banglore","karnataka",123456,9696969696,"virat@gmail.com");
+    let address2= new AddressBook("rohit","mumbai","Maharashtra",124562,6969696969,"rohit@gmail.com");  
+    addressArr.push(address1);
+    addressArr.push(address2);
+    console.log(addressArr);
+}
+catch(ex)
+{
+    console.error(ex);
+}
