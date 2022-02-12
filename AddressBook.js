@@ -163,3 +163,12 @@ function SearchName(addressbook)
 }
 let Result =addressArr.find(SearchName);
 console.log(" contact"+Result);
+//UC5//
+function DeleteAddress(addressbook)
+{
+    let Res = SearchName(addressbook);
+    var index= addressArr.indexOf(res);
+    return index;
+}
+let deleteIndex=addressArr.find(DeleteAddress);
+console.log(addressArr.splice(deleteIndex,1)+" is deleted")
