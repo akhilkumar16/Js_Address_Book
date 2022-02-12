@@ -1,4 +1,5 @@
 //uc1//
+//class for address book//
 class AddressBook
 {
     Name;
@@ -8,7 +9,8 @@ class AddressBook
     zip;
     phone;
     email;
-    constructor(Name,address, city, state, zip, phone, email) 
+    //constructor of the class//
+    constructor(Name,address, city, state, zip, phone, email)
     {
         this.Name = Name;
         this.address = address;
