@@ -156,3 +156,10 @@ catch(ex)
 {
     console.error(ex);
 }
+//UC4//
+function SearchName(addressbook)
+{
+    if(addressbook.Name=="virat") return addressbook;
+}
+let Result =addressArr.find(SearchName);
+console.log(" contact"+Result);
