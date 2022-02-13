@@ -202,3 +202,10 @@ else if(count>1)
 //UC8//
 let InCity=addressArr.filter(a=>a.city.includes("mumbai"));
 console.log(" contact with same city"+InCity);
+//UC9//
+ function Map(a){
+return a.city+ " "+a.Name;
+}
+ let addressMap= addressArr.map(Map);
+ console.log("no of contact in city")
+ console.log(Map);
