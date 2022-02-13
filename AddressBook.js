@@ -199,3 +199,6 @@ else if(count>1)
 {
     console.log(" exist duplicate contact");
 }
+//UC8//
+let InCity=addressArr.filter(a=>a.city.includes("mumbai"));
+console.log(" contact with same city"+InCity);
