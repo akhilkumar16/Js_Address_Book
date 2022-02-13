@@ -183,3 +183,19 @@ function GetTotal(a)
    return n;
 }
 console.log("number of saved contacts"+addressArr.reduce(GetTotal,0));
+//UC7//
+function Duplicate(a)
+{
+    if(a.Name.includes("rohit"));
+    ++n;
+return n;
+}
+let count = addressArr.filter(Duplicate);
+if(count=1)
+{
+    console.log("do not exist duplicate contact");
+}
+else if(count>1)
+{
+    console.log(" exist duplicate contact");
+}
